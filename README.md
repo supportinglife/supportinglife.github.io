@@ -1,2 +1,2 @@
-Supporting LIFE Technology Knowledge Base
-=========================================
+SL Technology Knowledge Base
+============================
