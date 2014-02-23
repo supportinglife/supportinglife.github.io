@@ -1,0 +1,39 @@
+<%-- sl_header.jspf --%>
+<%-- SL Header, containing scrolling Bootstrap CSS styling and jQuery functionality --%>
+<%-- author: James Flynn, Timothy O' Sullivan --%>
+<%-- Last Updated: 20/01/2014 --%>
+
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%-- JSTL FMT supports time, number and localisation formats. --%>
+<%@taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
+<%-- JSTL functions allow for String manipulation. --%>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
+<%-- spring form handling --%>
+<%@ taglib uri="http://www.springframework.org/tags/form" prefix="form" %>
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Supporting LIFE Admin">
+	<meta name="author" content="Tim O'Sullivan"/>
+	
+	<%--------------------------------------------- CSS Links -----------------------------------------%>
+	<%-- Bootstrap CSS --%>
+ 	<link rel='stylesheet' type='text/css' href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.css">
+ 	<%-- FontAwesome CSS --%>
+ 	<link rel='stylesheet' type='text/css' href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+
+
+ 	<%-- SL Global CSS --%>
+	<link rel="stylesheet" type="text/css" href=<c:url value="/css/sl_global.css"/>/>
+	 	
+ 	<%-- navigation bar CSS --%>
+	<link rel="stylesheet" type="text/css" href=<c:url value="/css/sl_navbar.css"/>/>
+	
+ 	<%-- footer CSS --%>
+	<link rel="stylesheet" type="text/css" href=<c:url value="/css/sl_footer.css"/>/>
+ 	
