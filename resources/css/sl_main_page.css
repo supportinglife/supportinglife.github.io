@@ -49,7 +49,10 @@ section h2 {
 }
 
 .table-icon {
-	font-size: 50px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 80px;
 }
 
 .table-icon:hover {
